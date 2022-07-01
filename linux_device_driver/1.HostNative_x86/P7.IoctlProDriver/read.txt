@@ -1,0 +1,14 @@
+#steps
+++sudo -s
+++dmesg -C
+++make
+++insmod
+++dmesg
+++mknod -m 777 /dev/nameDR c MAJOR MINOR
+++dmesg
+++/dev/nameDr
+++./userspace application
+++rmnod
+++dmesg
+++make clean
+++exit

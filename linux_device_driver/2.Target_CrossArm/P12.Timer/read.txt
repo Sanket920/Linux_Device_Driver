@@ -1,0 +1,14 @@
+#steps
+ * sudo -s
+ * make
+ * dmesg -C
+ * dmesg
+ * insmod sem_intr.ko
+ * dmesg
+ * dmesg
+ * dmesg
+ * rmmod
+ * dmesg
+ * make clean
+ * exit
+

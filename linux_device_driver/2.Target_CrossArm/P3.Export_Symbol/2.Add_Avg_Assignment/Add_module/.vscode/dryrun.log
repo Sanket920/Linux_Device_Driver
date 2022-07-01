@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/cdac/Desktop/Linux_DD/P3.Export_Symbol/2.Add_Avg_Assignment/Add_module'
+cc    -c -o addexp_m.o addexp_m.c
+make: Leaving directory '/home/cdac/Desktop/Linux_DD/P3.Export_Symbol/2.Add_Avg_Assignment/Add_module'
+ 

@@ -1,0 +1,13 @@
+steps for compiling and loading
+* sudo -s
+* make
+* dmesg -C
+* dmesg
+* echo "0" > /dev/NameDr //for write
+* dmesg
+* cat /dev/NameDr    //for read
+* dmesg
+* rmmod
+* dmesg
+* exit 
+

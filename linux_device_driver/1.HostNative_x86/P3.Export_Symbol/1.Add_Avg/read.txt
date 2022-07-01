@@ -1,0 +1,14 @@
+#steps
++sudo -s
++dmesg -C
++make 
++make install
++lsmod
++modprob -i avgex
+-->/lib/mdules/(kversion)/extra/
++lsmod
++dmesg
++modprob -r avgex
++dmesg
++make clean
++exit

@@ -1,0 +1,18 @@
+##steps
+ * sudo -s
+ * make
+ * dmesg -C
+ * dmesg
+ * insmod
+ * dmesg
+ * mknod -m 777 /dev/Wr1 c 234 0
+ * mknod -m 777 /dev/Wr2 c 234 1
+ * mknod -m 777 /dev/Rd1 c 234 2
+ * ./write1
+ * ./write2 (in first terminal)****./read1(in second terminal)
+ * .dmesg
+ * rmmod 
+ * dmesg
+ * make clean
+ * exit
+

@@ -1,0 +1,11 @@
+<<Steps>>
+#make
+#sudo -s
+#dmesg -C
+#insmod
+#dmesg
+#lsmod
+#dmesg
+#rmmod
+#dmesg
+

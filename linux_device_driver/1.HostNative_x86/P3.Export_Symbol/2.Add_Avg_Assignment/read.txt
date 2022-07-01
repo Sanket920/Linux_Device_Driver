@@ -1,0 +1,11 @@
+#steps
+++sudo -s
+++dmesg -C
+++make
+++make install
+++modprob -i avgexpm
+++dmesg
+++modprob -r avgexpm
+++dmesg
+++make clean
+++exit

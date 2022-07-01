@@ -1,0 +1,1 @@
+int addf(int, int);
